@@ -17,6 +17,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textoParaTraducir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/escribe_aqu_o_presiona_el_microfono"
@@ -51,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/playButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -64,7 +65,7 @@
         android:focusable="true" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
+        android:id="@+id/micButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -72,12 +73,12 @@
         android:clickable="true"
         android:contentDescription="@string/grabar_audio"
         app:layout_constraintBottom_toTopOf="@+id/adView"
-        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton"
+        app:layout_constraintEnd_toStartOf="@+id/playButton"
         app:srcCompat="@android:drawable/ic_btn_speak_now"
         android:focusable="true" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton3"
+        android:id="@+id/botonMenos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -90,16 +91,16 @@
         app:srcCompat="@android:drawable/dialog_holo_light_frame" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton4"
+        android:id="@+id/botonMas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
         android:clickable="true"
         android:contentDescription="@string/aumentar_tama_o_de_texto"
         android:focusable="true"
         app:layout_constraintBottom_toTopOf="@+id/adView"
-        app:layout_constraintStart_toEndOf="@+id/floatingActionButton3"
+        app:layout_constraintStart_toEndOf="@+id/botonMenos"
         app:srcCompat="@android:drawable/ic_input_add" />
 
 
