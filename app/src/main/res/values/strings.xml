@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">proyectoFinalNE</string>
     <string name="agrandar_texto">agrandar texto</string>
-    <string name="escribe_aqu_o_presiona_el_microfono">Type here or press the microphone</string>
+    <string name="escribe_aqu_o_presiona_el_microfono">Escribe aquí o presiona el microfono</string>
     <string name="aumentar_tama_o_de_texto">aumentar tamaño de texto</string>
     <string name="grabar_audio">grabar audio</string>
     <string name="escuchar_texto">escuchar texto</string>
